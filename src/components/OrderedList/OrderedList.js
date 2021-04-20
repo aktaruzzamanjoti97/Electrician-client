@@ -20,7 +20,7 @@ const OrderedList = () => {
     };
 
     useEffect(() => {
-        fetch('http://localhost:5000/ordersByDate', {
+        fetch('https://sleepy-coast-92115.herokuapp.com/ordersByDate', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify({ date: selectedDate, email: loggedInUser.email })

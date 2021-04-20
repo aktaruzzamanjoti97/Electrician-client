@@ -7,10 +7,10 @@ const AllOrders = () => {
     const [services, setServices] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/orders')
+        fetch('https://sleepy-coast-92115.herokuapp.com/orders')
             .then(res => res.json())
             .then(data => setServices(data))
-    }, [])
+    }, []);
 
     return (
         <div className="container-fluid row" >

@@ -26,7 +26,7 @@ const OrderForm = ({modalIsOpen, closeModal, orderOn, date}) => {
       data.date = date;
       data.created = new Date();
       
-      fetch('http://localhost:5000/takeOrders', {
+      fetch('https://sleepy-coast-92115.herokuapp.com/takeOrders', {
           method: 'POST',
           headers: { 'content-type': 'application/json' },
           body: JSON.stringify(data)
