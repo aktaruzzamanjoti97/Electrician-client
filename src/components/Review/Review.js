@@ -10,17 +10,12 @@ const Review = () => {
                 <form>
                     <div className="form-group">
                         {/* <label htmlFor="exampleInputEmail1">Email address</label> */}
-                        <input type="name" className="form-control" name="email" placeholder="Enter email" />
-                    </div>
-                    <br/>
-                    <div className="form-group">
-                        {/* <label htmlFor="exampleInputPassword1">Name</label> */}
-                        <input type="email" className="form-control" name="name" placeholder="Name" />
+                        <input type="name" className="form-control" name="email" placeholder="Enter Name" />
                     </div>
                     <br/>
                     <div className="form-group">
                         {/* <label htmlFor="exampleInputPassword1">Upload a image</label> */}
-                        <input type="text" className="form-control" id="exampleInputPassword1" placeholder="description" />
+                        <textarea type="text" row="15" className="form-control" id="exampleInputPassword1" placeholder="description" />
                     </div>
                     <br/>
                     <button type="submit" className="btn btn-primary">Submit</button>
