@@ -42,7 +42,7 @@ const Sidebar = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link to="/doctor/setting" className="text-brand text-decoration-none" >
+                        <Link className="text-brand text-decoration-none" >
                             <FontAwesomeIcon icon={faCog} /> <span>Settings</span>
                         </Link>
                     </li>
