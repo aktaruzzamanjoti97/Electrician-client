@@ -8,7 +8,7 @@ const HeaderMain = () => {
             <div className="col-md-4 col-sm-6 col-12 offset-md-1 text-style">
                 <h1>Your New Smile <br/> Starts Here</h1>
                 <p className="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi nostrum sunt, adipisci et beatae maiores.</p>
-                <Link to="/appointment" className="btn btn-brand text-uppercase">GET APPOINTMENT</Link>
+                <Link to="/dashboard" className="btn btn-brand text-uppercase">Get our servicing</Link>
             </div>
             <div className="col-md-6">
                 <img src={electrician} alt="" className="img-fluid"/>

@@ -9,17 +9,17 @@ const Service = () => {
     const serviceData = [
         {
             id:"1",
-            name: 'Covid-19 Information',
+            name: 'Fan Servicing',
             img: multimeter
         },
         {
             id:"2",
-            name: 'Blood Pressure',
+            name: 'Fridge Servicing',
             img: toolbox
         },
         {
             id:"3",
-            name: 'Diabatics',
+            name: 'Light Servicing',
             img: mechanic
         }
     ]
